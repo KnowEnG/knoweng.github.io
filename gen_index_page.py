@@ -123,6 +123,8 @@ def main():
 
     outf = open(args.output_file, 'w')
 
+    repos_seen = {}
+
     for category_data in repo_metadata:
         #print(category_data)
         # category is a dict with one key
@@ -136,6 +138,7 @@ def main():
             #print(repo_data)
             (repo, repo_data_bare), = repo_data.items()
             print("  Processing repo '%s' ..." % (repo))
+            repos_seen[repo] = 1
             if "hide" in repo_data_bare and repo_data_bare["hide"]:
                 print("  hiding repo '%s'" % (repo))
                 continue
@@ -160,6 +163,20 @@ def main():
             else:
                 print("  repo '%s' is private" % (repo))
     print()
+
+    #repos_not_seen = {}
+
+    #for repo in repos_info:
+    #    if repo not in repos_seen:
+    #        repos_not_seen[repo] = 1
+
+    repos_not_seen = [r for r in repos_info if not repos_seen[r]]
+
+    if repos_not_seen:
+        print("The following repos were in the repos info, but not processed:")
+        print(repos_not_seen)
+    else:
+        print("All of the repos in the repos info were processed.")
 
 
 if __name__ == "__main__":
