@@ -15,6 +15,11 @@ connecting to GitHub to get that, you can use:
 
 ./gen_index_page.py -rif repositories?q=user:KnowEnG
 
+If you want to save the repos info to a file (repos.info.json) when
+you get it, use:
+
+./gen_index_page.py -s
+
 If you want to specify the repos metadata file, use:
 
 ./gen_index_page.py -rmf repos.metadata.yml
@@ -34,6 +39,7 @@ or specify index.md as the output file:
 ./gen_index_page.py -of index.md
 
 Just make sure you're not overwriting a file that you want to save.
+
 
 To get the repos info from the GitHub API URL for an entire
 user/organization, use:
