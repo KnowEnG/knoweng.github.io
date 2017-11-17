@@ -1,0 +1,52 @@
+#TypeOrder,NameOrder,Remove?,Type,Name
+#Category,Name
+
+- Platform Interface:
+    - platform: {}
+    - quickstart-demos: {}
+    - knoweng.github.io:
+        hide: true
+
+- Analysis Pipeline:
+    - GeneSet_Characterization_Pipeline: {}
+    - Gene_Prioritization_Pipeline: {}
+    - Feature_Prioritization_Pipeline: {}
+    - Samples_Clustering_Pipeline: {}
+    - General_Clustering_Pipeline: {}
+    - Clustering_Evaluation: {}
+    - Signature_Analysis_Pipeline: {}
+    - Phenotype_Prediction_Pipeline: {}
+    - Data_Cleanup_Pipeline: {}
+    - KnowEnG_Pipelines_Library: {}
+
+- Common Workflow Language (CWL) Descriptions:
+    - KnowEnG_CWL: {}
+    - cwl-gene-prioritization:
+        hide: true
+    - cwl-gene-prioritization-check-results:
+        hide: true
+
+- Knowledge Network:
+    - KN_Fetcher: {}
+    - KN_Mapper: {}
+
+- Education:
+    - TeachEnG: {}
+    - ClusterEnG: {}
+
+- Research:
+    - DRaWR: {}
+    - ProGENI: {}
+    - pgenmi: {}
+    - clusDCA: {}
+    - AutoPhrase: {}
+    - ClusType: {}
+    - CoType: {}
+    - DPClass: {}
+    - Genvisage: {}
+    - PACER: {}
+    - PLE: {}
+    - SegPhrase: {}
+
+- Jupyter Notebooks: []
+
