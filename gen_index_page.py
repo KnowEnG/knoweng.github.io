@@ -7,11 +7,12 @@
 
 import argparse
 import json
-import markdown
-import pprint
-import sys
+#import pprint
+#import sys
 import urllib.request
 import yaml
+
+import markdown
 
 
 DEFAULT_REPOS_METADATA_FILE = 'repos.metadata.yml'
