@@ -8,7 +8,6 @@
 import argparse
 import json
 #import pprint
-#import sys
 import urllib.request
 import yaml
 
@@ -17,12 +16,6 @@ import markdown
 
 DEFAULT_REPOS_METADATA_FILE = 'repos.metadata.yml'
 DEFAULT_ORG = 'KnowEnG'
-# Is this necessary?
-# Put something like this at the front matter of the file
-#---
-#layout: post
-#title: Blogging Like a Hacker
-#---
 #DEFAULT_OUTPUT_FILE = 'index.md'
 DEFAULT_OUTPUT_FILE = 'out.md'
 DEFAULT_REPOS_INFO_FILE = 'repos.info.json'

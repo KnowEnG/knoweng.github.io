@@ -1,35 +1,66 @@
-## Platform Interface
- - [platform](https://github.com/KnowEnG/platform): Web services and client for the KnowEnG platform.
- - [quickstart-demos](https://github.com/KnowEnG/quickstart-demos): Updated on Aug 30
-## Analysis Pipeline
- - [GeneSet_Characterization_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline): Python 1 8 Updated on Jul 26
- - [Gene_Prioritization_Pipeline](https://github.com/KnowEnG/Gene_Prioritization_Pipeline): Network based prioritization of genes-associated-phenotype
- - [Feature_Prioritization_Pipeline](https://github.com/KnowEnG/Feature_Prioritization_Pipeline): General Purpose Features Prioritization Pipeline
- - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Python 8 Updated 15 days ago
- - [General_Clustering_Pipeline](https://github.com/KnowEnG/General_Clustering_Pipeline): Clusters any data frame
- - [Clustering_Evaluation](https://github.com/KnowEnG/Clustering_Evaluation): Python Updated on Mar 3
- - [Signature_Analysis_Pipeline](https://github.com/KnowEnG/Signature_Analysis_Pipeline): Network-based Gene Signature Analysis
- - [Phenotype_Prediction_Pipeline](https://github.com/KnowEnG/Phenotype_Prediction_Pipeline): Regression to infer an 'omic'-phenotype association
- - [Data_Cleanup_Pipeline](https://github.com/KnowEnG/Data_Cleanup_Pipeline): Given a spreadsheet this pipeline maps gene-label row names to Ensemble-label row names and checks data formats
- - [KnowEnG_Pipelines_Library](https://github.com/KnowEnG/KnowEnG_Pipelines_Library): Python scripts to support KnowEnG pipelines
-## Common Workflow Language (CWL) Descriptions
- - [KnowEnG_CWL](https://github.com/KnowEnG/KnowEnG_CWL): CWL for KnowEnG pipelines for cwltool and CGC
-## Knowledge Network
- - [KN_Fetcher](https://github.com/KnowEnG/KN_Fetcher): Download a subnetwork from the KnowEnG Knowledge Network
- - [KN_Mapper](https://github.com/KnowEnG/KN_Mapper): Maps names to entity IDs in the KnowEnG Knowledge Network
-## Education
- - [TeachEnG](https://github.com/KnowEnG/TeachEnG): JavaScript 4 Artistic-2.0 Updated on Sep 7
- - [ClusterEnG](https://github.com/KnowEnG/ClusterEnG): Educational web resource for clustering big data
-## Research
- - [DRaWR](https://github.com/KnowEnG/DRaWR): Discriminative Random Walk with Restart
- - [ProGENI](https://github.com/KnowEnG/ProGENI): Prioritization of Genes Enhanced with Network Information
- - [pgenmi](https://github.com/KnowEnG/pgenmi): Probabilistic Gene Expression in the Middle Analysis
- - [clusDCA](https://github.com/KnowEnG/clusDCA): software to accompany ISMB2015 paper
- - [AutoPhrase](https://github.com/KnowEnG/AutoPhrase): Forked from shangjingbo1226/AutoPhrase
- - [ClusType](https://github.com/KnowEnG/ClusType): Forked from shanzhenren/ClusType
- - [CoType](https://github.com/KnowEnG/CoType): Forked from shanzhenren/CoType
- - [DPClass](https://github.com/KnowEnG/DPClass): Forked from shangjingbo1226/DPClass
- - [Genvisage](https://github.com/KnowEnG/Genvisage): Forked from slhuang/Genvisage
- - [PACER](https://github.com/KnowEnG/PACER): PACER tool for pathway identification from chemosensitivity data
- - [PLE](https://github.com/KnowEnG/PLE): Forked from shanzhenren/PLE
- - [SegPhrase](https://github.com/KnowEnG/SegPhrase): Forked from shangjingbo1226/SegPhrase
+# knoweng.github.io
+
+
+Quick Start:
+1. edit repos.metadata.yml if necessary
+2. ./gen_index_page.py
+3. verify out.md is acceptable
+4. mv out.md index.md
+5. commit/push the changed files (index.md, maybe repos.metadata.yml)
+   back to the repo
+
+
+Use gen_index_page.py to create an index page for the repos.
+
+You can likely just use this script as follows:
+
+./gen_index_page.py
+
+This will get the repos info from the GitHub API URL.
+The default repos metadata file (-rmf) is repos.metadata.yml.
+The default output file (-of) is out.md.
+
+If you have a previously saved repos info file and want to avoid
+connecting to GitHub to get that, you can use:
+
+./gen_index_page.py -rif repositories?q=user:KnowEnG
+
+or
+
+./gen_index_page.py -rif repos.info.json
+
+If you want to save the repos info to a file (repos.info.json) when
+you get it, use:
+
+./gen_index_page.py -s
+
+If you want to specify the repos metadata file, use:
+
+./gen_index_page.py -rmf repos.metadata.yml
+
+If you want to specify the output file, use:
+
+./gen_index_page.py -of out.md
+
+Most likely you will want to place the output in index.md.  To do
+that, you can either do the following command after you run the
+script:
+
+mv out.md index.md
+
+or specify index.md as the output file:
+
+./gen_index_page.py -of index.md
+
+Just make sure you're not overwriting a file that you want to save.
+
+
+To get the repos info from the GitHub API URL for an entire
+user/organization, use:
+
+wget --header='Accept: application/vnd.github.mercy-preview+json' 'https://api.github.com/search/repositories?q=user:KnowEnG'
+
+For a specific repo, use:
+
+wget --header='Accept: application/vnd.github.mercy-preview+json' 'https://api.github.com/search/repositories?q=user:KnowEnG+KnowEnG_CWL'
+
