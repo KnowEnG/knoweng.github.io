@@ -1,13 +1,16 @@
 # knoweng.github.io
 
 
-Quick Start:
+### Quick Start
+
   * edit `repos.metadata.yml` if necessary
   * `./gen_index_page.py`
   * verify `out.md` is acceptable
   * `mv out.md index.md`
   * commit/push the changed files (`index.md`, maybe `repos.metadata.yml`) back to the repo
 
+
+### More details
 
 Use `gen_index_page.py` to create an index page for the repos.
 
