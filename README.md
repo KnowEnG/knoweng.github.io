@@ -2,7 +2,7 @@
  - [platform](https://github.com/KnowEnG/platform): Web services and client for the KnowEnG platform.
  - [quickstart-demos](https://github.com/KnowEnG/quickstart-demos): Updated on Aug 30
 ## Analysis Pipeline
- - [GeneSet\_Characterization\_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline): Python 1 8 Updated on Jul 26
+ - [GeneSet_Characterization_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline): Python 1 8 Updated on Jul 26
  - [Gene\_Prioritization\_Pipeline](https://github.com/KnowEnG/Gene_Prioritization_Pipeline): Network based prioritization of genes-associated-phenotype
  - [Feature\_Prioritization\_Pipeline](https://github.com/KnowEnG/Feature_Prioritization_Pipeline): General Purpose Features Prioritization Pipeline
  - [Samples\_Clustering\_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Python 8 Updated 15 days ago
