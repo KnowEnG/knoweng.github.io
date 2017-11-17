@@ -124,7 +124,7 @@ def main():
 
     # Process the repos in the repos metadata
     # The markdown string
-    markdown_str = ''
+    markdown_str = "\n"
 
     repos_seen = {}
     num_repos = 0
@@ -170,6 +170,9 @@ def main():
                     markdown_str += " - [%s](%s): %s\n" % (repo, html_url, description)
             else:
                 print("  repo '%s' is private" % (repo))
+        if repos_data:
+            markdown_str += "\n"
+
     print("Found %d categories, %d repos (%d public) in the repos metadata" %
           (len(repos_metadata), num_repos, num_repos_public))
     print()
