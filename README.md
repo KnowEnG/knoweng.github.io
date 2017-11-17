@@ -3,11 +3,12 @@
 
 ### Quick Start
 
-  * edit `repos.metadata.yml` if necessary
-  * `./gen_index_page.py`
-  * verify `out.md` is acceptable
-  * `mv out.md index.md`
-  * commit/push the changed files (`index.md`, maybe `repos.metadata.yml`) back to the repo
+  1. edit `repos.metadata.yml` if necessary
+  2. `./gen_index_page.py`
+  3. verify `out.md` is acceptable
+  4. `mv out.md index.md`
+  5. commit/push the changed files (`index.md`, maybe `repos.metadata.yml`)
+     back to the repo
 
 
 ### More details
