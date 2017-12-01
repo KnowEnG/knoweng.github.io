@@ -7,7 +7,7 @@
  - [GeneSet_Characterization_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline): Ranks a user supplied gene set against KnowEnG's gene sets collection
  - [Gene_Prioritization_Pipeline](https://github.com/KnowEnG/Gene_Prioritization_Pipeline): Network-based prioritization of genes associated with phenotypes
  - [Feature_Prioritization_Pipeline](https://github.com/KnowEnG/Feature_Prioritization_Pipeline): General purpose features prioritization pipeline
- - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Clusters the columns of a spreadsheet where the columns correspond to samples and rows correspond to genes
+ - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Clusters the sample-based columns of a spreadsheet whose rows correspond to genes
  - [General_Clustering_Pipeline](https://github.com/KnowEnG/General_Clustering_Pipeline): Clusters columns of any data frame
  - [Clustering_Evaluation](https://github.com/KnowEnG/Clustering_Evaluation): Evaluates the clustering result of KnowEnG's Samples Clustering Pipeline
  - [Signature_Analysis_Pipeline](https://github.com/KnowEnG/Signature_Analysis_Pipeline): Network-based gene signature analysis
