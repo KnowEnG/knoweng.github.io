@@ -1,15 +1,15 @@
 
 ## Platform Interface
- - [platform](https://github.com/KnowEnG/platform): Web services and client for the KnowEnG platform.
- - [quickstart-demos](https://github.com/KnowEnG/quickstart-demos)
+ - [platform](https://github.com/KnowEnG/platform): Web services and client for the KnowEnG platform
+ - [quickstart-demos](https://github.com/KnowEnG/quickstart-demos): Sample files and readmes for analytics pipelines on KnowEnG platform
 
 ## Analysis Pipeline
- - [GeneSet_Characterization_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline)
+ - [GeneSet_Characterization_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline): Ranks a user supplied gene set against KnowEnG's gene sets collection
  - [Gene_Prioritization_Pipeline](https://github.com/KnowEnG/Gene_Prioritization_Pipeline): Network based prioritization of genes-associated-phenotype
  - [Feature_Prioritization_Pipeline](https://github.com/KnowEnG/Feature_Prioritization_Pipeline): General Purpose Features Prioritization Pipeline
- - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline)
+ - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Clusters the columns of a given spreadsheet, where spreadsheet columns correspond to sample-labels and rows correspond to gene-labels
  - [General_Clustering_Pipeline](https://github.com/KnowEnG/General_Clustering_Pipeline): Clusters any data frame
- - [Clustering_Evaluation](https://github.com/KnowEnG/Clustering_Evaluation)
+ - [Clustering_Evaluation](https://github.com/KnowEnG/Clustering_Evaluation): Evaluates the clustering result of KnowEnG's Samples Clustering Pipeline
  - [Signature_Analysis_Pipeline](https://github.com/KnowEnG/Signature_Analysis_Pipeline): Network-based Gene Signature Analysis
  - [Phenotype_Prediction_Pipeline](https://github.com/KnowEnG/Phenotype_Prediction_Pipeline): Regression to infer an 'omic'-phenotype association
  - [Data_Cleanup_Pipeline](https://github.com/KnowEnG/Data_Cleanup_Pipeline): Given a spreadsheet this pipeline maps gene-label row names to Ensemble-label row names and checks data formats
@@ -23,13 +23,13 @@
  - [KN_Mapper](https://github.com/KnowEnG/KN_Mapper): Maps names to entity IDs in the KnowEnG Knowledge Network
 
 ## Education
- - [TeachEnG](https://github.com/KnowEnG/TeachEnG)
+ - [TeachEnG](https://github.com/KnowEnG/TeachEnG): A Teaching Engine for Genomics
  - [ClusterEnG](https://github.com/KnowEnG/ClusterEnG): Educational web resource for clustering big data
 
 ## Research
  - [DRaWR](https://github.com/KnowEnG/DRaWR): Discriminative Random Walk with Restart
  - [ProGENI](https://github.com/KnowEnG/ProGENI): Prioritization of Genes Enhanced with Network Information
  - [pgenmi](https://github.com/KnowEnG/pgenmi): Probabilistic Gene Expression in the Middle Analysis
- - [clusDCA](https://github.com/KnowEnG/clusDCA): software to accompany ISMB2015 paper
+ - [clusDCA](https://github.com/KnowEnG/clusDCA): Software to accompany ISMB2015 paper
  - [PACER](https://github.com/KnowEnG/PACER): PACER tool for pathway identification from chemosensitivity data
 
