@@ -5,14 +5,14 @@
 
 ## Analysis Pipeline
  - [GeneSet_Characterization_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline): Ranks a user supplied gene set against KnowEnG's gene sets collection
- - [Gene_Prioritization_Pipeline](https://github.com/KnowEnG/Gene_Prioritization_Pipeline): Network based prioritization of genes-associated-phenotype
- - [Feature_Prioritization_Pipeline](https://github.com/KnowEnG/Feature_Prioritization_Pipeline): General Purpose Features Prioritization Pipeline
- - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Clusters the columns of a given spreadsheet, where spreadsheet columns correspond to sample-labels and rows correspond to gene-labels
- - [General_Clustering_Pipeline](https://github.com/KnowEnG/General_Clustering_Pipeline): Clusters any data frame
+ - [Gene_Prioritization_Pipeline](https://github.com/KnowEnG/Gene_Prioritization_Pipeline): Network-based prioritization of genes associated with phenotypes
+ - [Feature_Prioritization_Pipeline](https://github.com/KnowEnG/Feature_Prioritization_Pipeline): General purpose features prioritization pipeline
+ - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Clusters the columns of a spreadsheet where the columns correspond to samples and rows correspond to genes
+ - [General_Clustering_Pipeline](https://github.com/KnowEnG/General_Clustering_Pipeline): Clusters columns of any data frame
  - [Clustering_Evaluation](https://github.com/KnowEnG/Clustering_Evaluation): Evaluates the clustering result of KnowEnG's Samples Clustering Pipeline
- - [Signature_Analysis_Pipeline](https://github.com/KnowEnG/Signature_Analysis_Pipeline): Network-based Gene Signature Analysis
+ - [Signature_Analysis_Pipeline](https://github.com/KnowEnG/Signature_Analysis_Pipeline): Network-based gene signature analysis
  - [Phenotype_Prediction_Pipeline](https://github.com/KnowEnG/Phenotype_Prediction_Pipeline): Regression to infer an 'omic'-phenotype association
- - [Data_Cleanup_Pipeline](https://github.com/KnowEnG/Data_Cleanup_Pipeline): Given a spreadsheet this pipeline maps gene-label row names to Ensemble-label row names and checks data formats
+ - [Data_Cleanup_Pipeline](https://github.com/KnowEnG/Data_Cleanup_Pipeline): Maps gene-label row names of a spreadsheet to Ensembl names and checks data formats
  - [KnowEnG_Pipelines_Library](https://github.com/KnowEnG/KnowEnG_Pipelines_Library): Python scripts to support KnowEnG pipelines
 
 ## Common Workflow Language (CWL) Descriptions
