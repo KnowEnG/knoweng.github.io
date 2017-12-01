@@ -4,11 +4,11 @@
 ### Quick Start
 
   1. edit `repos.metadata.yml` if necessary
-  2. `./gen_index_page.py`
+  2. `./gen_index_page.py -s`
   3. verify `out.md` is acceptable
   4. `mv out.md index.md`
-  5. commit/push the changed files (`index.md`, maybe `repos.metadata.yml`)
-     back to the repo
+  5. commit/push the changed files (`index.md`, maybe `repos.info.json`,
+     maybe `repos.metadata.yml`) back to the repo
 
 
 ### More details
@@ -44,6 +44,9 @@ you get it, use:
 ```
 ./gen_index_page.py -s
 ```
+
+(A copy of `repos.info.json` is in the repo, so if you save a new
+version of this file, you may want to commit/push it.)
 
 If you want to specify the repos metadata file, use:
 
