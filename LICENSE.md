@@ -1,11 +1,11 @@
 
 Copyright 2017, University of Illinois Board of Trustees Developed by
-KnowEnG Center, a NIH Big Data Center for Excellence. This research
+KnowEnG Center, a NIH Big Data Center for Excellence.  This research
 was supported by grant U54 GM114838 awarded by the National Institute
 of General Medical Sciences (NIGMS) through funds provided by the
 [trans-NIH Big Data to Knowledge (BD2K) initiative](http://www.bd2k.nih.gov).
 
-The software is licensed under [MIT License](https://opensource.org/licenses/MIT).
+The software is licensed under [the MIT License](https://opensource.org/licenses/MIT).
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
