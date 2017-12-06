@@ -1,4 +1,9 @@
 
+
+Here are the [KnowEnG](https://knoweng.org/) repos.  For more
+information about the KnowEnG platform, or to sign up for an account,
+visit [the KnowEnG site](https://knoweng.org/analyze/).
+
 ## Platform Interface
  - [platform](https://github.com/KnowEnG/platform): Web services and client for the KnowEnG platform
  - [quickstart-demos](https://github.com/KnowEnG/quickstart-demos): Sample files and readmes for analytics pipelines on KnowEnG platform

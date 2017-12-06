@@ -7,6 +7,7 @@
 
 import argparse
 import json
+import os
 #import pprint
 import urllib.request
 import yaml
@@ -19,6 +20,8 @@ DEFAULT_ORG = 'KnowEnG'
 #DEFAULT_OUTPUT_FILE = 'index.md'
 DEFAULT_OUTPUT_FILE = 'out.md'
 DEFAULT_REPOS_INFO_FILE = 'repos.info.json'
+DEFAULT_HEADER_TEXT_FILE = 'header.md'
+DEFAULT_FOOTER_TEXT_FILE = 'footer.md'
 
 GIT_ORG_URL = 'https://github.com/:org:'
 GIT_REPO_URL = 'https://github.com/:org:/:repo:'
@@ -37,6 +40,8 @@ def parse_args():
     parser.add_argument('-of', '--output_file', default=DEFAULT_OUTPUT_FILE)
     parser.add_argument('-H', '--to_html', action='store_true')
     parser.add_argument('-s', '--save_repos_info', action='store_true')
+    parser.add_argument('-htf', '--header_text_file')
+    parser.add_argument('-ftf', '--footer_text_file')
 
     args = parser.parse_args()
 
@@ -126,6 +131,14 @@ def main():
     # The markdown string
     markdown_str = "\n"
 
+    if args.header_text_file is None:
+        args.header_text_file = DEFAULT_HEADER_TEXT_FILE
+    if args.header_text_file != "none" and os.path.exists(args.header_text_file):
+        with open(args.header_text_file, 'r') as f:
+            markdown_str += "\n"
+            markdown_str += f.read()
+            markdown_str += "\n"
+
     repos_seen = {}
     num_repos = 0
     num_repos_public = 0
@@ -171,6 +184,14 @@ def main():
             else:
                 print("  repo '%s' is private" % (repo))
         if repos_data:
+            markdown_str += "\n"
+
+    if args.footer_text_file is None:
+        args.footer_text_file = DEFAULT_FOOTER_TEXT_FILE
+    if args.footer_text_file != "none" and os.path.exists(args.footer_text_file):
+        with open(args.footer_text_file, 'r') as f:
+            markdown_str += "\n"
+            markdown_str += f.read()
             markdown_str += "\n"
 
     print("Found %d categories, %d repos (%d public) in the repos metadata" %
