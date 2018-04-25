@@ -24,6 +24,7 @@ visit [the KnowEnG site](https://knoweng.org/analyze/).
  - [KnowEnG_CWL](https://github.com/KnowEnG/KnowEnG_CWL): CWL for KnowEnG pipelines for cwltool and CGC
 
 ## Knowledge Network
+ - [KN_Builder](https://github.com/KnowEnG/KN_Builder): Fetch and parse source files to construct KnowEnG Knowledge Network
  - [KN_Fetcher](https://github.com/KnowEnG/KN_Fetcher): Download a subnetwork from the KnowEnG Knowledge Network
  - [KN_Mapper](https://github.com/KnowEnG/KN_Mapper): Maps names to entity IDs in the KnowEnG Knowledge Network
 
