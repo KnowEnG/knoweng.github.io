@@ -11,11 +11,13 @@
     - GeneSet_Characterization_Pipeline: {}
     - Gene_Prioritization_Pipeline: {}
     - Feature_Prioritization_Pipeline: {}
+    - Simplified_InPheRNo_Pipeline: {}
     - Samples_Clustering_Pipeline: {}
     - General_Clustering_Pipeline: {}
     - Clustering_Evaluation: {}
     - Signature_Analysis_Pipeline: {}
     - Phenotype_Prediction_Pipeline: {}
+    - Spreadsheets_Transformation: {}
     - Data_Cleanup_Pipeline: {}
     - KnowEnG_Pipelines_Library: {}
 
@@ -27,12 +29,15 @@
         hide: true
 
 - Knowledge Network:
+    - KnowNet_Pipeline_Tools: {}
     - KN_Fetcher: {}
     - KN_Mapper: {}
+    - KN_Builder: {}
 
 - Education:
     - TeachEnG: {}
     - ClusterEnG: {}
+    - SequencEnG: {}
 
 - Research:
     - DRaWR: {}
