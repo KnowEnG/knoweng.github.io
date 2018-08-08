@@ -27,9 +27,9 @@ visit [the KnowEnG site](https://knoweng.org/analyze/).
 
 ## Knowledge Network
  - [KnowNet_Pipeline_Tools](https://github.com/KnowEnG/KnowNet_Pipeline_Tools): Setup resources and start KN_Builder
+ - [KN_Builder](https://github.com/KnowEnG/KN_Builder): Fetch and parse source files to construct KnowEnG Knowledge Network
  - [KN_Fetcher](https://github.com/KnowEnG/KN_Fetcher): Download a subnetwork from the KnowEnG Knowledge Network
  - [KN_Mapper](https://github.com/KnowEnG/KN_Mapper): Maps names to entity IDs in the KnowEnG Knowledge Network
- - [KN_Builder](https://github.com/KnowEnG/KN_Builder): Fetch and parse source files to construct KnowEnG Knowledge Network
 
 ## Education
  - [TeachEnG](https://github.com/KnowEnG/TeachEnG): A Teaching Engine for Genomics

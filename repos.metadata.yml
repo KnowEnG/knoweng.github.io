@@ -30,9 +30,9 @@
 
 - Knowledge Network:
     - KnowNet_Pipeline_Tools: {}
+    - KN_Builder: {}
     - KN_Fetcher: {}
     - KN_Mapper: {}
-    - KN_Builder: {}
 
 - Education:
     - TeachEnG: {}
