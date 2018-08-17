@@ -12,7 +12,7 @@ visit [the KnowEnG site](https://knoweng.org/analyze/).
  - [GeneSet_Characterization_Pipeline](https://github.com/KnowEnG/GeneSet_Characterization_Pipeline): Ranks a user supplied gene set against KnowEnG's gene sets collection
  - [Gene_Prioritization_Pipeline](https://github.com/KnowEnG/Gene_Prioritization_Pipeline): Network-based prioritization of genes associated with phenotypes
  - [Feature_Prioritization_Pipeline](https://github.com/KnowEnG/Feature_Prioritization_Pipeline): General purpose features prioritization pipeline
- - [Simplified_InPheRNo_Pipeline](https://github.com/KnowEnG/Simplified_InPheRNo_Pipeline)
+ - [Simplified_InPheRNo_Pipeline](https://github.com/KnowEnG/Simplified_InPheRNo_Pipeline): Identifies 'phenotype-relevant' transcriptional regulatory networks
  - [Samples_Clustering_Pipeline](https://github.com/KnowEnG/Samples_Clustering_Pipeline): Clusters the sample-based columns of a spreadsheet whose rows correspond to genes
  - [General_Clustering_Pipeline](https://github.com/KnowEnG/General_Clustering_Pipeline): Clusters columns of any data frame
  - [Clustering_Evaluation](https://github.com/KnowEnG/Clustering_Evaluation): Evaluates the clustering result of KnowEnG's Samples Clustering Pipeline
@@ -42,4 +42,5 @@ visit [the KnowEnG site](https://knoweng.org/analyze/).
  - [pgenmi](https://github.com/KnowEnG/pgenmi): Probabilistic Gene Expression in the Middle Analysis
  - [clusDCA](https://github.com/KnowEnG/clusDCA): Software to accompany ISMB2015 paper
  - [PACER](https://github.com/KnowEnG/PACER): PACER tool for pathway identification from chemosensitivity data
+ - [Simplified-InPheRNo](https://github.com/KnowEnG/Simplified-InPheRNo): This is the simplified version of InPheRNo
 
